@@ -23,3 +23,9 @@ jobs:
 
     - name: Run Java program
       run: java AddNumbers
+
+    - name: Compile Java program
+      run: javac HelloWorld.java
+
+    - name: Run Java program
+      run: java Hello
